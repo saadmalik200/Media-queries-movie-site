@@ -53,35 +53,26 @@ header {
 
 .container img {
   max-width: 100%;
-  /* height: 70rem; */
-  /* padding-top: 2rem; */
   object-fit: cover;
   display: block;
-  /* object-position: 40% 10%; */
-  /* margin: 0rem 0 0 0rem; */
 }
 
 .coming-soon {
-  background-color: hsl(32, 47%, 42%);
-  background-image: url("../images/jigsaw.svg");
+  background: hsl(32, 47%, 42%) url("../images/jigsaw.svg") center/ cover
+    no-repeat;
   padding: 2rem;
-
-  background-size: cover;
-  background-repeat: no-repeat;
   position: absolute;
-  top: 20%;
-  left: 10%;
+  /* top: 20%;
+  left: 8%; */
 
   color: white;
-  width: 20%;
-  height: 20%;
 }
 
 .coming-soon h2 {
   /* padding: 4rem 0; */
   width: 100%;
   font-size: 4rem;
-  margin: 5% auto;
+  /* margin: 15% auto; */
   text-align: center;
   overflow: hidden;
 }
@@ -198,18 +189,23 @@ input {
 @media screen and (min-width: 64em) {
   .coming-soon {
     top: 22%;
-    left: 12%;
+    left: 6%;
 
     color: white;
-    width: 20%;
-    height: 28%;
+    /* width: 20%;
+    height: 28%; */
+    width: 30rem;
+    height: 20rem;
   }
 
   .coming-soon h2 {
-    font-size: 4rem;
-    margin: 25% auto;
+    font-size: 2.7em;
+    margin: 20% auto;
 
     color: blue;
+    border: 2px solid white;
+    border-radius: 2rem;
+    background-color: rgba(196, 194, 191, 0.615);
   }
 }
 
@@ -217,18 +213,23 @@ input {
 @media screen and (max-width: 64em) {
   .coming-soon {
     top: 20%;
-    left: 10%;
+    left: 6%;
 
     color: white;
-    width: 20%;
-    height: 20%;
+    width: 20rem;
+    height: 15rem;
+    /* width: 20%;
+    height: 20%; */
   }
 
   .coming-soon h2 {
-    font-size: 3rem;
-    margin: 5% auto;
+    font-size: 1.6em;
+    margin: 22% auto;
 
     color: rgb(134, 18, 60);
+    border: 2px solid white;
+    border-radius: 2rem;
+    background-color: rgba(196, 194, 191, 0.615);
   }
 
   nav {
@@ -255,18 +256,21 @@ input {
 @media screen and (max-width: 48em) {
   .coming-soon {
     top: 18%;
-    left: 8%;
+    left: 6%;
 
     color: white;
-    width: 18%;
-    height: 18%;
+    width: 15rem;
+    height: 10rem;
   }
 
   .coming-soon h2 {
-    font-size: 2rem;
-    margin: 0% auto;
+    font-size: 0.9em;
+    margin: 15% auto;
 
     color: red;
+    border: 2px solid white;
+    border-radius: 2rem;
+    background-color: rgba(221, 217, 211, 0.615);
   }
   nav {
     font-size: 1.8rem;
@@ -402,9 +406,9 @@ input {
     border: 4px solid rgb(255, 255, 255);
     width: fit-content;
     border-radius: 2rem;
-    background-color: rgba(197, 127, 77, 0.628);
+    background-color: rgba(227, 202, 183, 0.715);
     padding: 0 1rem;
-    margin: -0.5rem auto;
+    margin: -0.7rem auto;
   }
   nav {
     font-size: 1.5rem;
