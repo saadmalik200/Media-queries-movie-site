@@ -322,7 +322,7 @@ input {
     /* padding: 4rem 0; */
     /* width: 100%; */
     font-size: 2.5rem;
-    margin: auto auto;
+    margin: -0.5rem auto;
     text-align: center;
     overflow: hidden;
     color: rgb(255, 255, 255);
@@ -404,6 +404,7 @@ input {
     border-radius: 2rem;
     background-color: rgba(197, 127, 77, 0.628);
     padding: 0 1rem;
+    margin: -0.5rem auto;
   }
   nav {
     font-size: 1.5rem;
