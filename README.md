@@ -2,22 +2,8 @@
 
 ## Let's try to recreate this website
 
-- You can choose whatever images/movie you want
+![Desktop](./images/Desktop.png)
 
-- if you do this the same way I did you'll need to:
+![Tablet](./images/Desktopfull.png)
 
-  - use positioning
-
-  - change display types
-
-- I used a pattern from here for the backgrounds: [Hero Patterns](https://www.heropatterns.com/)
-
-- Images from [placecage](https://www.placecage.com/)
-
-![Desktop](./design/desktop.PNG)
-
-![Tablet](./design/tablet.PNG)
-
-![Mobile](./design/mobile.PNG)
-
-![Animation](./design/Animation.gif)
+![Mobile](./images/Mobile.png)
