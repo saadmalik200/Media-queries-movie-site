@@ -21,6 +21,16 @@
 ![Mobile](./images/Mobile.png)
 
 
+## Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Google Fonts
+- Background Images
+- Flexbox
+- Media Query
+- Responsive Design
+
 ## Author
 
 - Website - [Saad Malik-Github](https://github.com/saadmalik200)
